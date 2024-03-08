@@ -66,7 +66,7 @@ The 3W's:
     - **Why**: Provides the reason regarding conditions that may affect our expecting result.
 
 
-![3w.png](docs%2Fimages%2F3w.png)
+![3W.png](docs%2Fimages%2F3w.png)
 <br><sub>Source: The author</sub>
 
 
