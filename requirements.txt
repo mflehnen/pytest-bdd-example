@@ -1,0 +1,5 @@
+pyspark~=3.5.1
+pytest~=8.0.2
+delta-spark
+pytest-bdd~=7.1.1
+delta~=0.4.2
