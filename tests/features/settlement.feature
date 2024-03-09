@@ -1,4 +1,6 @@
-Feature: Tax rate for settlement transactions.
+Feature: Settlement
+
+    Tax rate for settlement transactions.
 
     Background:
         Given That a I have an external table with metrics about the seller relationship:
@@ -10,6 +12,8 @@ Feature: Tax rate for settlement transactions.
             | S5        | 2750                       | 4000                        |
 
 
+    # TIP: Using Scenario Outline: just as an example here. But for a situation like that a common scenario could run
+    # faster comparing the entire result of the expectation table at once.
     Scenario Outline: Calculate the tax rate charged when settling transactions
         Given I'm the product owner of financial services
 

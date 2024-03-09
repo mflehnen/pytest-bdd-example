@@ -1,4 +1,8 @@
-Feature: Loading rows into silver table.
+# TIP:  example of tags usage
+@important @regression
+Feature: Silver Table
+
+    Loading rows into silver table.
 
     Scenario: De-duplicating rows from source
         Given I'm the product owner of financial services

@@ -32,7 +32,7 @@ def bronze_streaming(spark_session, attr_value_table, test_context):
 
 
 @when('I trigger the data transformation for silver table')
-def bronze_streaming(test_context):
+def silver_data_transformation(test_context):
     # call the transformation function
     source_df = test_context['source_data']
     valid_df, recycle_df = my_data_transformation_function(source_df)

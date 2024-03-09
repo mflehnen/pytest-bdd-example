@@ -67,11 +67,13 @@ def load_fraudulent_sellers(spark_session, attr_value_table, test_context):
 
 @when(parsers.parse('The seller has completed a minimum of {qty:d} transactions per day in the last 6 months'))
 def validate_metrics(qty):
+    # TODO: implement-me
     pass
 
 
 @when('''The company has a special promotion "Promotion XYZ" for the month in the seller's region''')
 def validate_promotion():
+    # TODO: implement-me
     pass
 
 
